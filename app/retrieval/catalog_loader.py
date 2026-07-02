@@ -11,10 +11,6 @@ class CatalogLoader:
         self.catalog = None
 
     def load_catalog(self):
-        """
-        Load the SHL product catalog from JSON.
-        Uses in-memory caching so the file is read only once.
-        """
 
         if self.catalog is not None:
             return self.catalog
@@ -44,9 +40,6 @@ class CatalogLoader:
         return self.catalog
 
     def get_by_name(self, name: str):
-        """
-        Find an assessment by its exact name.
-        """
 
         catalog = self.load_catalog()
 
