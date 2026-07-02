@@ -36,8 +36,6 @@ Thumbs.db
 *.log
 logs/
 
-data/chroma_db/
-
 .cache/
 huggingface/
 docker-compose.override.yml
