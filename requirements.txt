@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+chromadb
+sentence-transformers
+torch
+transformers
+google-generativeai
+python-dotenv
+beautifulsoup4
+requests
+lxml
+pydantic
+pytest
